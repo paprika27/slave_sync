@@ -23,3 +23,8 @@ This PowerShell script helps manage and synchronize files between a source direc
    ```bash
    git clone https://github.com/paprika27/slave_sync.git
    cd slave_sync
+
+3. **make it yours**
+   - set execution policy to be able to execute ps1 in PowerShell
+   - change source directory (this will be touched and should really be called slave, come to think of it)
+   - change reference directory (this is the master that will not be altered)
