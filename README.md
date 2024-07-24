@@ -1,6 +1,6 @@
-# slave_sync
+# slave_sync (one way sync)
 
-I have music on my PC, sometimes I delete junk, sometimes I find new stuff. Every couple of months, I want to update the USB drive I have in my car to scrap what I disliked and add what's new. I wanted more granular control over which files are being touched (by manually touching the cache.jsons) and didn't want stuffups because of timestamps or sync conflicts, so I worked with chatGPT to build this. It's comparing a source folder (on my thumb drive) recursively against a reference folder (on my PC), removing what's not (anymore) in the reference and copying what's more (regardless of new or old). ChatGPT came up with this readme:
+I have music on my PC, sometimes I delete junk, sometimes I find new stuff. Every couple of months, I want to update the USB drive I have in my car to scrap what I disliked and add what's new. I wanted more granular control over which files are being touched (by manually touching the cache.jsons) and didn't want stuffups because of timestamps or sync conflicts (I know freefilesync or syncthing could probably be at least as good), so I worked with chatGPT to build this. It's comparing a source folder (on my thumb drive) recursively against a reference folder (on my PC), removing what's not (anymore) in the reference and copying what's more (regardless of new or old). ChatGPT came up with this readme:
 
 # Music Database Sync Script
 
