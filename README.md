@@ -47,7 +47,8 @@ This PowerShell script helps manage and synchronize files between a source direc
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-Contributing
+This project is licensed under the MIT License.
+
+## Contributing
 
 Feel free to open issues or submit pull requests if you have suggestions or improvements but don't expect quick responses.
