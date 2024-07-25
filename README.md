@@ -28,3 +28,26 @@ This PowerShell script helps manage and synchronize files between a source direc
    - set execution policy to be able to execute ps1 in PowerShell
    - change source directory (this will be touched and should really be called slave, come to think of it)
    - change reference directory (this is the master that will not be altered)
+   - change index and cache paths
+
+## Usage
+   Generate Index:
+      The script will prompt if you want to refresh the index file if it already exists.
+      
+   Discover Unmatched Items:
+      Identifies files and directories in the source that are not in the reference.
+      Prompts to use existing cache or regenerate it if the cache is out-of-date.
+      
+   Discover Missing Items:
+      Identifies files and directories in the reference that are missing in the source.
+      Prompts to use existing cache or regenerate it if the cache is out-of-date.
+      
+   Proceed with Actions:
+      Prompts for confirmation before proceeding with deletion or copying actions.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+Contributing
+
+Feel free to open issues or submit pull requests if you have suggestions or improvements but don't expect quick responses.
